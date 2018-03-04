@@ -1,5 +1,7 @@
 # Team-Project-14
 
+I like idea#1 , tweak this to also figure out if user has potential mental issues and then you can tie this up to stop gun violence movement solution. go for it.
+
 Bruce Decker
 
 Mahitee Satasiya
