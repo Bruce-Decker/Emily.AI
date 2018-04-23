@@ -1,0 +1,32 @@
+{
+  "name": "project-team-14",
+  "version": "1.0.0",
+  "description": "I like idea#1 , tweak this to also figure out if user has potential mental issues and then you can tie this up to stop gun violence movement solution. go for it.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "start": "node ./app",
+    "dev": "nodemon ./app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SJSU272LabSP18/Project-Team-14.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SJSU272LabSP18/Project-Team-14/issues"
+  },
+  "homepage": "https://github.com/SJSU272LabSP18/Project-Team-14#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.3",
+    "jest": "^22.4.3",
+    "ws": "^5.1.1"
+  }
+}
