@@ -5,9 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll",
+    "dev-test": "nodemon dev-test",
     "start": "node ./app",
-    "dev": "nodemon ./app",
-    "dev-test": "nodemon ./app"
+    "dev": "nodemon ./app"
+  },
+  "jest": {
+   "testEnvironment": "node"
   },
   "repository": {
     "type": "git",
