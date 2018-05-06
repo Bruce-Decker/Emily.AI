@@ -1,0 +1,1126 @@
+review date
+movie synopsis
+
+all headers in same line 
+
+add name and user id in movie detail while adding review
+Space error in City form  - Multiplex admin creator
+
+
+
+
+// make width 100% of div and then text align center
+
+
+
+<body class="app">
+  <div id="loader" class="fadeOut">
+      <div class="spinner"></div>
+  </div>
+  
+  <div>
+      <div class="sidebar">
+          <div class="sidebar-inner">
+              <div class="sidebar-logo">
+              <div class="peers ai-c fxw-nw">
+                  <div class="peer peer-greed">
+                      <a class="sidebar-link td-n" href="https://colorlib.com/polygon/adminator/index.html">
+                          <div class="peers ai-c fxw-nw">
+                          <div class="peer">
+                              <div class="logo"><img src="assets/static/images/logo.png" alt="" /></div>
+                          </div>
+                          <div class="peer peer-greed">
+                              <h5 class="lh-1 mB-0 logo-text">Adminator</h5>
+                          </div>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="peer">
+                      <div class="mobile-toggle sidebar-toggle"><a href="" class="td-n"><i class="ti-arrow-circle-left"></i></a></div>
+                  </div>
+              </div>
+              </div>
+              <ul class="sidebar-menu scrollable pos-r ps">
+              <li class="nav-item mT-30 active"><a class="sidebar-link" href="https://colorlib.com/polygon/adminator/index.html" default=""><span class="icon-holder"><i class="c-blue-500 ti-home"></i> </span><span class="title">Dashboard</span></a></li>
+              <li class="nav-item"><a class="sidebar-link" href="email.html"><span class="icon-holder"><i class="c-brown-500 ti-email"></i> </span><span class="title">Email</span></a></li>
+              <li class="nav-item"><a class="sidebar-link" href="compose.html"><span class="icon-holder"><i class="c-blue-500 ti-share"></i> </span><span class="title">Compose</span></a></li>
+              <li class="nav-item"><a class="sidebar-link" href="calendar.html"><span class="icon-holder"><i class="c-deep-orange-500 ti-calendar"></i> </span><span class="title">Calendar</span></a></li>
+              <li class="nav-item"><a class="sidebar-link" href="chat.html"><span class="icon-holder"><i class="c-deep-purple-500 ti-comment-alt"></i> </span><span class="title">Chat</span></a></li>
+              <li class="nav-item"><a class="sidebar-link" href="charts.html"><span class="icon-holder"><i class="c-indigo-500 ti-bar-chart"></i> </span><span class="title">Charts</span></a></li>
+              <li class="nav-item"><a class="sidebar-link" href="forms.html"><span class="icon-holder"><i class="c-light-blue-500 ti-pencil"></i> </span><span class="title">Forms</span></a></li>
+              <li class="nav-item dropdown"><a class="sidebar-link" href="ui.html"><span class="icon-holder"><i class="c-pink-500 ti-palette"></i> </span><span class="title">UI Elements</span></a></li>
+              <li class="nav-item dropdown">
+                  <a class="dropdown-toggle" href="javascript:void(0);"><span class="icon-holder"><i class="c-orange-500 ti-layout-list-thumb"></i> </span><span class="title">Tables</span> <span class="arrow"><i class="ti-angle-right"></i></span></a>
+                  <ul class="dropdown-menu">
+                      <li><a class="sidebar-link" href="basic-table.html">Basic Table</a></li>
+                      <li><a class="sidebar-link" href="datatable.html">Data Table</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="dropdown-toggle" href="javascript:void(0);"><span class="icon-holder"><i class="c-purple-500 ti-map"></i> </span><span class="title">Maps</span> <span class="arrow"><i class="ti-angle-right"></i></span></a>
+                  <ul class="dropdown-menu">
+                      <li><a href="google-maps.html">Google Map</a></li>
+                      <li><a href="vector-maps.html">Vector Map</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="dropdown-toggle" href="javascript:void(0);"><span class="icon-holder"><i class="c-red-500 ti-files"></i> </span><span class="title">Pages</span> <span class="arrow"><i class="ti-angle-right"></i></span></a>
+                  <ul class="dropdown-menu">
+                      <li><a class="sidebar-link" href="404.html">404</a></li>
+                      <li><a class="sidebar-link" href="500.html">500</a></li>
+                      <li><a class="sidebar-link" href="signin.html">Sign In</a></li>
+                      <li><a class="sidebar-link" href="signup.html">Sign Up</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="dropdown-toggle" href="javascript:void(0);"><span class="icon-holder"><i class="c-teal-500 ti-view-list-alt"></i> </span><span class="title">Multiple Levels</span> <span class="arrow"><i class="ti-angle-right"></i></span></a>
+                  <ul class="dropdown-menu">
+                      <li class="nav-item dropdown"><a href="javascript:void(0);"><span>Menu Item</span></a></li>
+                      <li class="nav-item dropdown">
+                          <a href="javascript:void(0);"><span>Menu Item</span> <span class="arrow"><i class="ti-angle-right"></i></span></a>
+                          <ul class="dropdown-menu">
+                          <li><a href="javascript:void(0);">Menu Item</a></li>
+                          <li><a href="javascript:void(0);">Menu Item</a></li>
+                          </ul>
+                      </li>
+                  </ul>
+              </li>
+              {/* <div class="ps__rail-x" style="left: 0px; bottom: 0px;">
+                  <div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+              </div>
+              <div class="ps__rail-y" style="top: 0px; right: 0px;">
+                  <div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div>
+              </div> */}
+              </ul>
+          </div>
+      </div>
+      <div class="page-container">
+          <div class="header navbar">
+              <div class="header-container">
+              <ul class="nav-left">
+                  <li><a id="sidebar-toggle" class="sidebar-toggle" href="javascript:void(0);"><i class="ti-menu"></i></a></li>
+                  <li class="search-box"><a class="search-toggle no-pdd-right" href="javascript:void(0);"><i class="search-icon ti-search pdd-right-10"></i> <i class="search-icon-close ti-close pdd-right-10"></i></a></li>
+                  <li class="search-input"><input class="form-control" type="text" placeholder="Search..." /></li>
+              </ul>
+              <ul class="nav-right">
+                  <li class="notifications dropdown">
+                      <span class="counter bgc-red">3</span> <a href="" class="dropdown-toggle no-after" data-toggle="dropdown"><i class="ti-bell"></i></a>
+                      <ul class="dropdown-menu">
+                          <li class="pX-20 pY-15 bdB"><i class="ti-bell pR-10"></i> <span class="fsz-sm fw-600 c-grey-900">Notifications</span></li>
+                          <li>
+                          <ul class="ovY-a pos-r scrollable lis-n p-0 m-0 fsz-sm ps">
+                              <li>
+                                  <a href="" class="peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100">
+                                      <div class="peer mR-15"><img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/1.jpg" alt=""/></div>
+                                      <div class="peer peer-greed">
+                                      <span><span class="fw-500">John Doe</span> <span class="c-grey-600">liked your <span class="text-dark">post</span></span></span>
+                                      <p class="m-0"><small class="fsz-xs">5 mins ago</small></p>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="" class="peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100">
+                                      <div class="peer mR-15"><img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/2.jpg" alt=""/></div>
+                                      <div class="peer peer-greed">
+                                      <span><span class="fw-500">Moo Doe</span> <span class="c-grey-600">liked your <span class="text-dark">cover image</span></span></span>
+                                      <p class="m-0"><small class="fsz-xs">7 mins ago</small></p>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="" class="peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100">
+                                      <div class="peer mR-15"><img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/3.jpg" alt=""/></div>
+                                      <div class="peer peer-greed">
+                                      <span><span class="fw-500">Lee Doe</span> <span class="c-grey-600">commented on your <span class="text-dark">video</span></span></span>
+                                      <p class="m-0"><small class="fsz-xs">10 mins ago</small></p>
+                                      </div>
+                                  </a>
+                              </li>
+                              {/* <div class="ps__rail-x" style="left: 0px; bottom: 0px;">
+                                  <div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+                              </div>
+                              <div class="ps__rail-y" style="top: 0px; right: 0px;">
+                                  <div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div>
+                              </div> */}
+                          </ul>
+                          </li>
+                          <li class="pX-20 pY-15 ta-c bdT"><span><a href="" class="c-grey-600 cH-blue fsz-sm td-n">View All Notifications <i class="ti-angle-right fsz-xs mL-10"></i></a></span></li>
+                      </ul>
+                  </li>
+                  <li class="notifications dropdown">
+                      <span class="counter bgc-blue">3</span> <a href="" class="dropdown-toggle no-after" data-toggle="dropdown"><i class="ti-email"></i></a>
+                      <ul class="dropdown-menu">
+                          <li class="pX-20 pY-15 bdB"><i class="ti-email pR-10"></i> <span class="fsz-sm fw-600 c-grey-900">Emails</span></li>
+                          <li>
+                          <ul class="ovY-a pos-r scrollable lis-n p-0 m-0 fsz-sm ps">
+                              <li>
+                                  <a href="" class="peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100">
+                                      <div class="peer mR-15"><img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/1.jpg" alt=""/></div>
+                                      <div class="peer peer-greed">
+                                      <div>
+                                          <div class="peers jc-sb fxw-nw mB-5">
+                                              <div class="peer">
+                                                  <p class="fw-500 mB-0">John Doe</p>
+                                              </div>
+                                              <div class="peer"><small class="fsz-xs">5 mins ago</small></div>
+                                          </div>
+                                          <span class="c-grey-600 fsz-sm">Want to create your own customized data generator for your app...</span>
+                                      </div>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="" class="peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100">
+                                      <div class="peer mR-15"><img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/2.jpg" alt=""/></div>
+                                      <div class="peer peer-greed">
+                                      <div>
+                                          <div class="peers jc-sb fxw-nw mB-5">
+                                              <div class="peer">
+                                                  <p class="fw-500 mB-0">Moo Doe</p>
+                                              </div>
+                                              <div class="peer"><small class="fsz-xs">15 mins ago</small></div>
+                                          </div>
+                                          <span class="c-grey-600 fsz-sm">Want to create your own customized data generator for your app...</span>
+                                      </div>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="" class="peers fxw-nw td-n p-20 bdB c-grey-800 cH-blue bgcH-grey-100">
+                                      <div class="peer mR-15"><img class="w-3r bdrs-50p" src="https://randomuser.me/api/portraits/men/3.jpg" alt=""/></div>
+                                      <div class="peer peer-greed">
+                                      <div>
+                                          <div class="peers jc-sb fxw-nw mB-5">
+                                              <div class="peer">
+                                                  <p class="fw-500 mB-0">Lee Doe</p>
+                                              </div>
+                                              <div class="peer"><small class="fsz-xs">25 mins ago</small></div>
+                                          </div>
+                                          <span class="c-grey-600 fsz-sm">Want to create your own customized data generator for your app...</span>
+                                      </div>
+                                      </div>
+                                  </a>
+                              </li>
+                              {/* <div class="ps__rail-x" style="left: 0px; bottom: 0px;">
+                                  <div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+                              </div>
+                              <div class="ps__rail-y" style="top: 0px; right: 0px;">
+                                  <div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div>
+                              </div> */}
+                          </ul>
+                          </li>
+                          <li class="pX-20 pY-15 ta-c bdT"><span><a href="" class="c-grey-600 cH-blue fsz-sm td-n">View All Email <i class="fs-xs ti-angle-right mL-10"></i></a></span></li>
+                      </ul>
+                  </li>
+                  <li class="dropdown">
+                      <a href="" class="dropdown-toggle no-after peers fxw-nw ai-c lh-1" data-toggle="dropdown">
+                          <div class="peer mR-10"><img class="w-2r bdrs-50p" src="https://randomuser.me/api/portraits/men/10.jpg" alt=""/></div>
+                          <div class="peer"><span class="fsz-sm c-grey-900">John Doe</span></div>
+                      </a>
+                      <ul class="dropdown-menu fsz-sm">
+                          <li><a href="" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700"><i class="ti-settings mR-10"></i> <span>Setting</span></a></li>
+                          <li><a href="" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700"><i class="ti-user mR-10"></i> <span>Profile</span></a></li>
+                          <li><a href="" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700"><i class="ti-email mR-10"></i> <span>Messages</span></a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="" class="d-b td-n pY-5 bgcH-grey-100 c-grey-700"><i class="ti-power-off mR-10"></i> <span>Logout</span></a></li>
+                      </ul>
+                  </li>
+              </ul>
+              </div>
+          </div>
+          <main class="main-content bgc-grey-100">
+              <div id="mainContent">
+              <div class="container-fluid">
+                  <h4 class="c-grey-900 mT-10 mB-30">Basic Tables</h4>
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="bgc-white bd bdrs-3 p-20 mB-20">
+                          <h4 class="c-grey-900 mB-20">Simple Table</h4>
+                          <p>Using the most basic table markup, here’s how <code class="highlighter-rouge">.table</code>-based tables look in Bootstrap. <strong>All table styles are inherited in Bootstrap 4</strong>, meaning any nested tables will be styled in the same manner as the parent.</p>
+                          <table class="table">
+                              <thead>
+                                  <tr>
+                                      <th scope="col">#</th>
+                                      <th scope="col">First Name</th>
+                                      <th scope="col">Last Name</th>
+                                      <th scope="col">Username</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <th scope="row">1</th>
+                                      <td>Mark</td>
+                                      <td>Otto</td>
+                                      <td>@mdo</td>
+                                  </tr>
+                                  <tr>
+                                      <th scope="row">2</th>
+                                      <td>Jacob</td>
+                                      <td>Thornton</td>
+                                      <td>@fat</td>
+                                  </tr>
+                                  <tr>
+                                      <th scope="row">3</th>
+                                      <td>Larry</td>
+                                      <td>the Bird</td>
+                                      <td>@twitter</td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="bgc-white bd bdrs-3 p-20 mB-20">
+                          <h4 class="c-grey-900 mB-20">Table head options</h4>
+                          <p>Similar to tables and dark tables, use the modifier classes <code class="highlighter-rouge">.thead-light</code> or <code class="highlighter-rouge">.thead-dark</code> to make <code class="highlighter-rouge">&lt;thead&gt;</code>s appear light or dark gray.</p>
+                          <table class="table">
+                              <thead class="thead-dark">
+                                  <tr>
+                                      <th scope="col">#</th>
+                                      <th scope="col">First Name</th>
+                                      <th scope="col">Last Name</th>
+                                      <th scope="col">Username</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <th scope="row">1</th>
+                                      <td>Mark</td>
+                                      <td>Otto</td>
+                                      <td>@mdo</td>
+                                  </tr>
+                                  <tr>
+                                      <th scope="row">2</th>
+                                      <td>Jacob</td>
+                                      <td>Thornton</td>
+                                      <td>@fat</td>
+                                  </tr>
+                                  <tr>
+                                      <th scope="row">3</th>
+                                      <td>Larry</td>
+                                      <td>the Bird</td>
+                                      <td>@twitter</td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="bgc-white bd bdrs-3 p-20 mB-20">
+                          <h4 class="c-grey-900 mB-20">Striped rows</h4>
+                          <p>Use <code class="highlighter-rouge">.table-striped</code> to add zebra-striping to any table row within the <code class="highlighter-rouge">&lt;tbody&gt;</code>.</p>
+                          <table class="table table-striped">
+                              <thead>
+                                  <tr>
+                                      <th scope="col">#</th>
+                                      <th scope="col">First Name</th>
+                                      <th scope="col">Last Name</th>
+                                      <th scope="col">Username</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <th scope="row">1</th>
+                                      <td>Mark</td>
+                                      <td>Otto</td>
+                                      <td>@mdo</td>
+                                  </tr>
+                                  <tr>
+                                      <th scope="row">2</th>
+                                      <td>Jacob</td>
+                                      <td>Thornton</td>
+                                      <td>@fat</td>
+                                  </tr>
+                                  <tr>
+                                      <th scope="row">3</th>
+                                      <td>Larry</td>
+                                      <td>the Bird</td>
+                                      <td>@twitter</td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="bgc-white bd bdrs-3 p-20 mB-20">
+                          <h4 class="c-grey-900 mB-20">Bordered table</h4>
+                          <p>Add <code class="highlighter-rouge">.table-bordered</code> for borders on all sides of the table and cells.</p>
+                          <table class="table table-bordered">
+                              <thead>
+                                  <tr>
+                                      <th scope="col">#</th>
+                                      <th scope="col">First Name</th>
+                                      <th scope="col">Last Name</th>
+                                      <th scope="col">Username</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <th scope="row">1</th>
+                                      <td>Mark</td>
+                                      <td>Otto</td>
+                                      <td>@mdo</td>
+                                  </tr>
+                                  <tr>
+                                      <th scope="row">2</th>
+                                      <td>Mark</td>
+                                      <td>Otto</td>
+                                      <td>@TwBootstrap</td>
+                                  </tr>
+                                  <tr>
+                                      <th scope="row">3</th>
+                                      <td>Jacob</td>
+                                      <td>Thornton</td>
+                                      <td>@fat</td>
+                                  </tr>
+                                  <tr>
+                                      <th scope="row">4</th>
+                                      <td colspan="2">Larry the Bird</td>
+                                      <td>@twitter</td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-md-12">
+                          <div class="bgc-white bd bdrs-3 p-20">
+                          <h4 class="c-grey-900 mB-20">Hoverable rows</h4>
+                          <p>Add <code class="highlighter-rouge">.table-hover</code> to enable a hover state on table rows within a <code class="highlighter-rouge">&lt;tbody&gt;</code>.</p>
+                          <table class="table table-hover">
+                              <thead>
+                                  <tr>
+                                      <th scope="col">#</th>
+                                      <th scope="col">First Name</th>
+                                      <th scope="col">Last Name</th>
+                                      <th scope="col">Username</th>
+                                  </tr>
+                              </thead>
+                              <tbody>
+                                  <tr>
+                                      <th scope="row">1</th>
+                                      <td>Mark</td>
+                                      <td>Otto</td>
+                                      <td>@mdo</td>
+                                  </tr>
+                                  <tr>
+                                      <th scope="row">2</th>
+                                      <td>Jacob</td>
+                                      <td>Thornton</td>
+                                      <td>@fat</td>
+                                  </tr>
+                                  <tr>
+                                      <th scope="row">3</th>
+                                      <td colspan="2">Larry the Bird</td>
+                                      <td>@twitter</td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              </div>
+          </main>
+          <footer class="bdT ta-c p-30 lh-0 fsz-sm c-grey-600">
+              <span>Copyright © 2017 Designed by <a href="https://colorlib.com" target="_blank" title="Colorlib">Colorlib</a>. All rights reserved.</span>
+              <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+
+          </footer>
+      </div>
+  </div>
+  <script type="text/javascript" src="./vendor.js"></script><script type="text/javascript" src="./bundle.js"></script>
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row gap-20 masonry pos-r" style={{position: 'relative', height: '1086px'}}>
+                            <div class="masonry-item col-md-6" style={{position: 'absolute', top: '0px'}}>
+
+
+
+
+
+  <body class="sticky-footer bg-dark fixed-nav" id="page-top">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+                    <a class="navbar-brand" href="index.html">
+                        
+                        {localStorage.getItem('admin_name')}
+                    </a>
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+                            <li class="nav-item" value={addDashboard} onClick={this.handleLinkClick.bind(this)} data-toggle="tooltip" data-placement="right" title="" data-original-title="Dashboard">
+                                <a class="nav-link" href="index.html">
+                                    <i class="fa fa-fw fa-dashboard"></i>
+                                    <span class="nav-link-text">Analytics Dashboard</span>
+                                </a>
+                            </li>
+                            {localStorage.getItem('roleId')==3?
+                            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="" data-original-title="Charts">
+                                <a class="nav-link" href="charts.html">
+                                    <i class="fa fa-fw fa-area-chart"></i>
+                                    <span class="nav-link-text">User Tracking Dashboard</span>
+                                </a>
+                            </li>:''}
+                            {localStorage.getItem('roleId')==3?
+                            <li class="nav-item" value={addMultiplexAdmin} onClick={this.handleLinkClick.bind(this)} data-toggle="tooltip" data-placement="right" title="" data-original-title="Link">
+                                <a class="nav-link" href="#" >
+                                    <i class="fa fa-fw fa-link"></i>
+                                    <span class="nav-link-text">Multiplex Admin Dashboard</span>
+                                </a>
+                            </li>:''}                          
+                            {localStorage.getItem('roleId')==3?
+                            <li class="nav-item" value={addMultiplex} onClick={this.handleLinkClick.bind(this)} data-toggle="tooltip" data-placement="right" title="" data-original-title="Link">
+                                <a class="nav-link" href="#" >
+                                    <i class="fa fa-fw fa-link"></i>
+                                    <span class="nav-link-text">Multiplex Dashboard</span>
+                                </a>
+                            </li>:''}
+                            <li class="nav-item" value={addMovie} onClick={this.handleLinkClick.bind(this)} data-toggle="tooltip" data-placement="right" title="" data-original-title="Link">
+                                <a class="nav-link" href="#">
+                                    <i class="fa fa-fw fa-link"></i>
+                                    <span class="nav-link-text">Movie Dashboard</span>
+                                </a>
+                            </li>
+
+                            {localStorage.getItem('roleId') == '2' ?
+                                <li class="nav-item" value={showTimings} onClick={this.handleLinkClick.bind(this)} data-toggle="tooltip" data-placement="right" title="" data-original-title="Link">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa fa-fw fa-link"></i>
+                                        <span class="nav-link-text">Show Timing Dashboard</span>
+                                    </a>
+                                </li>
+                                : ''}
+
+                        </ul>
+
+                        <ul class="navbar-nav ml-auto">
+
+                            <li class="nav-item">
+                                <a href="/" onClick={ this.handleLogout } className="hide-logged-in">Sign Out</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                {this.state.addMovie ? this.returnMovie() : ''}
+                {this.state.addMultiplexAdmin ? this.returnMultiplexAdmin() : ''}
+                {this.state.addMultiplex ? this.returnMultiplex() : ''}
+                {this.state.addDashboard ? this.returnDashboard() : ''}
+                {this.state.addUserTracking ? this.returnMultiplex() : ''}
+                {this.state.showTimings ? this.returnShowTimings() : ''}
+            </body>
+
+<div class="row gap-20 masonry pos-r" style={{position: 'relative', height: '1086px'}}>
+                    <div class="masonry-item col-md-6" style={{position: 'absolute', top: '0px'}}>
+                        <div class="bgc-white p-20 bd">
+                            <div class="mT-30">
+                                <form id="dashboard-form" className='form-multiplexadmin'>        
+
+                                    <div className="form-group">
+                                        <label class="dashboard-label">Title</label>
+                                        <input type="email" placeholder="Enter Movie Name" value={this.state.title} onChange={this.handleUserInput} 
+                                        className="form-control" id="email" name='email' />
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label class="dashboard-label">Trailer Link</label>
+                                        <input type="email" placeholder="Address Line" value={this.state.title} onChange={this.handleUserInput} 
+                                        className="form-control" id="email" name='email' value={this.state.trailer_link} onChange={this.handleUserInput} />
+                                    </div>
+
+                                    <div class="form-row">
+                                        <div className="form-group col-md-6">
+                                            <label class="dashboard-label">Movie Length</label>
+                                            <input type="text" value={this.state.movie_length} onChange={this.handleUserInput} placeholder="Length in Minutes" className="form-control" id="first_name" name='first_name' pattern='[A-Za-z]*' title='Please enter valid name' required />
+                                        </div>
+
+                                        <div className="form-group col-md-6">
+                                            <label class="dashboard-label">Release Date</label>
+                                            <DatePicker
+                                                selected={(this.state.release_date)}
+                                                onChange={this.handleChange.bind(this)}
+                                                minDate={moment()}
+                                                placeholderText="Select a release date"
+                                            />
+                                            {/* <input type="text" onChange={this.handleChange} placeholder="Enter Last Name" className="form-control" id="last_name" name='last_name' pattern='[A-Za-z]*' title='Please enter valid name' required /> */}
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row">
+                                        <div className="form-group col-md-6">
+                                            <label class="dashboard-label">MPAA Ratings</label>
+                                            <br/>
+                                            <select class="form-control col-sm-5" value={this.state.mpaa_ratings}
+                                                onChange={this.handleUserInput} name="mpaa_ratings" id="mpaa_ratings">
+                                                <option value="G">General Audience</option>
+                                                <option value="PG">PG – Parental Guidance Suggested</option>
+                                                <option value="PG-13">PG-13 – Parents Strongly Cautioned</option>
+                                                <option value="R">R – Restricted</option>
+                                                <option value="NC-17">NC-17 – Adults Only</option>
+                                            </select>
+                                        </div>
+
+                                        <div className="form-group col-md-6">
+                                            <label class="dashboard-label">Definition</label>
+                                            <br/>
+                                            <select class="form-control col-sm-5" value={this.state.movie_definition}
+                                                onChange={this.handleUserInput} name="movie_definition" id="movie_definition">
+                                                <option value="HD">HD</option>
+                                                <option value="HHD">HHD</option>
+                                            </select>
+                                            {/* <input type="text" onChange={this.handleChange} placeholder="Enter Last Name" className="form-control" id="last_name" name='last_name' pattern='[A-Za-z]*' title='Please enter valid name' required /> */}
+                                        </div>
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label class="dashboard-label">Movie Keywords</label>
+                                        <Creatable amenities={this.state.movie_keywords} multiValueChange={this.multiValueChange.bind(this)} />
+                                    </div>
+
+                                    <div className="form-group">
+                                        <label class="dashboard-label">Movie Logo</label>
+                                        <input id="file-upload" type="file" onChange={ this._handleChangeFile.bind(this) } />
+                                    </div>
+                                    
+                                    <div class="form-row">
+                                        <div className="form-group col-md-3">
+                                        {this.state.update ? <input type="submit" class="dashboard-form-btn btn btn-primary"
+                                                value="Update Movie" required="" onClick={this.updateMovie.bind(this)} /> : <input type="submit" class="dashboard-form-btn btn btn-primary"
+                                                    value="Add Movie" required="" onClick={this.handleSubmit.bind(this)} />}
+                                        </div>
+
+                                        <div className="form-group col-md-3">
+                                            <input type="reset" class="dashboard-form-btn btn btn-default" value="Cancel" />
+                                            {/* <input type="text" onChange={this.handleChange} placeholder="Enter Last Name" className="form-control" id="last_name" name='last_name' pattern='[A-Za-z]*' title='Please enter valid name' required /> */}
+                                        </div>
+                                    </div>
+
+                                    
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+formatAMPM(ts) {
+        var date = new Date(ts);
+        var hours = date.getHours();
+        var minutes = date.getMinutes();
+        var ampm = hours >= 12 ? 'p' : 'a';
+        hours = hours % 12;
+        hours = hours ? hours : 12; // the hour '0' should be '12'
+        minutes = minutes < 10 ? '0'+minutes : minutes;
+        var strTime = hours + ':' + minutes + '' + ampm;
+        return strTime;
+      }
+      <li class="fd-movie__btn-list-item show-time" >
+      <ul id="movie-show-box">
+
+      id={show._id + ',' + multiplex._id + ',' + show.screen_number} onClick={this.onShowTimeClick.bind(this)} >{this.formatAMPM(show.sort_field)}</a>
+
+
+
+{
+            "price": {
+                "adult": 12,
+                "child": 12,
+                "disabled": 12,
+                "student": 13
+            },
+            "_id": {
+                "$oid": "5adac28f496ec52e603067f4"
+            },
+            "screen_number": "6",
+            "date_time": "Wednesday, May 2, 2018 12:00 AM",
+            "sort_field": 1525244400000,
+            "seats_left": 12,
+            "movie": {
+                "title": "Black Panthar",
+                "_id": 2,
+                "release_date": "2018-04-25T07:00:00.000Z",
+                "movie_logo": "_1523735110503_avatar2.png"
+            }
+        },{
+            "price": {
+                "adult": 12,
+                "child": 13,
+                "disabled": 13,
+                "student": 13
+            },
+            "_id": {
+                "$oid": "5ad83b38e1b40e4f6c0c4879"
+            },
+            "screen_id": "5ad19edcdc125c39f0d616f7",
+            "screen_number": "2",
+            "date_time": "Friday, April 20, 2018 10:15 PM",
+            "sort_field": 1524287700000,
+            "seats_left": 12,
+            "movie": {
+                "title": "Black Panthar",
+                "_id": 2,
+                "release_date": "2018-04-25T07:00:00.000Z",
+                "movie_logo": "_1523735110503_avatar2.png"
+            }
+        },{
+            "price": {
+                "adult": 12,
+                "child": 12,
+                "disabled": 12,
+                "student": 13
+            },
+            "_id": {
+                "$oid": "5adae8177d73b050647a8770"
+            },
+            "screen_id": "5adaba89496ec52e603067f2",
+            "screen_number": "2",
+            "date_time": "Saturday, April 21, 2018 10:00 PM",
+            "sort_field": 1524373200000,
+            "seats_left": 12,
+            "movie": {
+                "mpaa_ratings": [
+                    "PG"
+                ],
+                "movie_keywords": [
+                    "sasdasd"
+                ],
+                "number_clicks": 0,
+                "movie_characters": [
+                    {
+                        "_id": "5ad6fbeef210f244382bb1e8",
+                        "name": "sjcsdj",
+                        "image_path": "_1524038637923_avatar2.png"
+                    },
+                    {
+                        "_id": "5ad6fbfff210f244382bb1e9",
+                        "name": "sjcsdj",
+                        "image_path": "_1524038655615_avatar2.png"
+                    },
+                    {
+                        "_id": "5ad6fd1cf210f244382bb1ea",
+                        "name": "acasdc",
+                        "image_path": "_1524038940277_avatar2.png"
+                    },
+                    {
+                        "_id": "5ad6fd6bf210f244382bb1eb",
+                        "name": "ssdvsdv",
+                        "image_path": "_1524039019624_avatar2.png"
+                    }
+                ],
+                "review_ratings": [
+                    {
+                        "likes_count": 0,
+                        "title": "Untitled",
+                        "_id": "5ad84cb8b8c90522847f45c2",
+                        "rating": 2,
+                        "review": "sdjbsdljvbsjkdvb",
+                        "user_id": 12,
+                        "user_name": "Vajid"
+                    },
+                    {
+                        "likes_count": 0,
+                        "title": "Untitled",
+                        "_id": "5ad84cb8b8c90522847f45c2",
+                        "rating": 5,
+                        "review": "sdjbsdljvbsjkdvb",
+                        "user_id": 12,
+                        "user_name": "Vajid"
+                    },
+                    {
+                        "likes_count": 0,
+                        "title": "Untitled",
+                        "_id": "5ad84cb8b8c90522847f45c2",
+                        "rating": 1,
+                        "review": "sdjbsdljvbsjkdvb",
+                        "user_id": 12,
+                        "user_name": "Vajid"
+                    },
+                    {
+                        "likes_count": 0,
+                        "title": "Untitled",
+                        "_id": "5ad84cb8b8c90522847f45c2",
+                        "rating": 3,
+                        "review": "sdjbsdljvbsjkdvb",
+                        "user_id": 12,
+                        "user_name": "Vajid"
+                    },
+                    {
+                        "likes_count": 0,
+                        "title": "Untitled",
+                        "_id": "5ad84cb8b8c90522847f45c2",
+                        "rating": 1,
+                        "review": "sdjbsdljvbsjkdvb",
+                        "user_id": 12,
+                        "user_name": "Vajid"
+                    },
+                    {
+                        "likes_count": 0,
+                        "title": "Untitled",
+                        "_id": "5ad84cb8b8c90522847f45c2",
+                        "rating": 4,
+                        "review": "sdjbsdljvbsjkdvb",
+                        "user_id": 12,
+                        "user_name": "Vajid"
+                    },
+                    {
+                        "likes_count": 0,
+                        "title": "Untitled",
+                        "_id": "5ad84cb8b8c90522847f45c2",
+                        "rating": 5,
+                        "review": "sdjbsdljvbsjkdvb",
+                        "user_id": 12,
+                        "user_name": "Vajid"
+                    },
+                    {
+                        "likes_count": 0,
+                        "title": "Untitled",
+                        "_id": "5ad84cb8b8c90522847f45c2",
+                        "rating": 2,
+                        "review": "sdjbsdljvbsjkdvb",
+                        "user_id": 12,
+                        "user_name": "Vajid"
+                    },
+                    {
+                        "likes_count": 0,
+                        "title": "Untitled",
+                        "_id": "5ad84cb8b8c90522847f45c2",
+                        "rating": 1,
+                        "review": "sdjbsdljvbsjkdvb",
+                        "user_id": 12,
+                        "user_name": "Vajid"
+                    },
+                    {
+                        "likes_count": 0,
+                        "title": "Untitled",
+                        "_id": "5ad84cb8b8c90522847f45c2",
+                        "rating": 2,
+                        "review": "sdjbsdljvbsjkdvb",
+                        "user_id": 12,
+                        "user_name": "Vajid"
+                    },
+                    {
+                        "likes_count": 0,
+                        "title": "Untitled",
+                        "_id": "5ad84cb8b8c90522847f45c2",
+                        "rating": 3,
+                        "review": "sdjbsdljvbsjkdvb",
+                        "user_id": 12,
+                        "user_name": "Vajid"
+                    },
+                    {
+                        "likes_count": 0,
+                        "title": "Untitled",
+                        "_id": "5ad84cb8b8c90522847f45c2",
+                        "rating": 4,
+                        "review": "sdjbsdljvbsjkdvb",
+                        "user_id": 12,
+                        "user_name": "Vajid"
+                    },
+                    {
+                        "likes_count": 0,
+                        "title": "Untitled",
+                        "_id": "5ae05ec19957c14216fafe39",
+                        "rating": 4,
+                        "review": "sdjbsdljvbsjkdvb",
+                        "user_id": 12,
+                        "user_name": "Vajid"
+                    },
+                    {
+                        "likes_count": 0,
+                        "title": "This is ratonmg",
+                        "_id": "5ae05ef29957c14216fafe3a",
+                        "rating": 3,
+                        "review": "fksjdnkjnsdjnvkfvd",
+                        "user_id": 12,
+                        "user_name": "Vajid"
+                    },
+                    {
+                        "likes_count": 0,
+                        "title": "Amazing Movie",
+                        "_id": "5ae05fb49957c14216fafe3b",
+                        "rating": 5,
+                        "review": "I am creating a review",
+                        "user_id": 12,
+                        "user_name": "Vajid"
+                    },
+                    {
+                        "likes_count": 0,
+                        "title": "Text",
+                        "_id": "5ae05fdc9957c14216fafe3c",
+                        "rating": 4,
+                        "review": "Checking",
+                        "user_id": 12,
+                        "user_name": "Vajid"
+                    },
+                    {
+                        "likes_count": 0,
+                        "title": "Jello",
+                        "_id": "5ae062fc9957c14216fafe3d",
+                        "rating": 3,
+                        "review": "jdsfkkf\n\n",
+                        "user_id": 12,
+                        "user_name": "Vajid"
+                    },
+                    {
+                        "likes_count": 0,
+                        "title": "<y comment",
+                        "_id": "5ae0631c9957c14216fafe3e",
+                        "rating": 0,
+                        "review": "dsfdf",
+                        "user_id": 12,
+                        "user_name": "Vajid"
+                    }
+                ],
+                "date_added": "2018-04-14T19:10:07.956Z",
+                "_id": 2,
+                "title": "Black Panthar",
+                "trailer_link": "https://www.youtube.com/watch?v=xjDjIWPwcPU",
+                "release_date": "2018-04-25T07:00:00.000Z",
+                "movie_length": 126,
+                "movie_definition": "HHD",
+                "movie_logo": "_1523735110503_avatar2.png",
+                "__v": 11
+            }
+        },{
+            "price": {
+                "adult": 12,
+                "child": 12,
+                "disabled": 12,
+                "student": 13
+            },
+            "_id": {
+                "$oid": "5adb9377872b5e4cc0177dc9"
+            },
+            "screen_number": "3",
+            "screen_id": "5adaba89496ec52e603067f2",
+            "date_time": "Friday, April 27, 2018 6:15 PM",
+            "sort_field": 1524878100000,
+            "seats_left": 12,
+            "movie": {
+                "mpaa_ratings": [
+                    "PG"
+                ],
+                "movie_keywords": [
+                    "sasdasd"
+                ],
+                "number_clicks": 0,
+                "movie_characters": [
+                    {
+                        "_id": "5ad6fbeef210f244382bb1e8",
+                        "name": "sjcsdj",
+                        "image_path": "_1524038637923_avatar2.png"
+                    },
+                    {
+                        "_id": "5ad6fbfff210f244382bb1e9",
+                        "name": "sjcsdj",
+                        "image_path": "_1524038655615_avatar2.png"
+                    },
+                    {
+                        "_id": "5ad6fd1cf210f244382bb1ea",
+                        "name": "acasdc",
+                        "image_path": "_1524038940277_avatar2.png"
+                    },
+                    {
+                        "_id": "5ad6fd6bf210f244382bb1eb",
+                        "name": "ssdvsdv",
+                        "image_path": "_1524039019624_avatar2.png"
+                    }
+                ],
+                "review_ratings": [
+                    {
+                        "likes_count": 0,
+                        "_id": "5ad84cb8b8c90522847f45c2",
+                        "rating": 4,
+                        "review": "sdjbsdljvbsjkdvb",
+                        "user_id": 12,
+                        "user_name": "Vajid"
+                    }
+                ],
+                "date_added": "2018-04-14T19:10:07.956Z",
+                "_id": 2,
+                "title": "Black Panthar",
+                "trailer_link": "www.u.com",
+                "release_date": "2018-04-25T07:00:00.000Z",
+                "movie_length": 126,
+                "movie_definition": "HHD",
+                "movie_logo": "_1523735110503_avatar2.png",
+                "__v": 5
+            }
+        },{
+            "price": {
+                "adult": 12,
+                "child": 12,
+                "disabled": 12,
+                "student": 13
+            },
+            "_id": {
+                "$oid": "5adb93bc872b5e4cc0177dca"
+            },
+            "screen_number": "3",
+            "screen_id": "5adaba89496ec52e603067f2",
+            "date_time": "Saturday, April 21, 2018 3:15 PM",
+            "sort_field": 1524348900000,
+            "seats_left": 12,
+            "movie": {
+                "mpaa_ratings": [
+                    "PG"
+                ],
+                "movie_keywords": [
+                    "sasdasd"
+                ],
+                "number_clicks": 0,
+                "movie_characters": [
+                    {
+                        "_id": "5ad6fbeef210f244382bb1e8",
+                        "name": "sjcsdj",
+                        "image_path": "_1524038637923_avatar2.png"
+                    },
+                    {
+                        "_id": "5ad6fbfff210f244382bb1e9",
+                        "name": "sjcsdj",
+                        "image_path": "_1524038655615_avatar2.png"
+                    },
+                    {
+                        "_id": "5ad6fd1cf210f244382bb1ea",
+                        "name": "acasdc",
+                        "image_path": "_1524038940277_avatar2.png"
+                    },
+                    {
+                        "_id": "5ad6fd6bf210f244382bb1eb",
+                        "name": "ssdvsdv",
+                        "image_path": "_1524039019624_avatar2.png"
+                    }
+                ],
+                "review_ratings": [
+                    {
+                        "likes_count": 0,
+                        "_id": "5ad84cb8b8c90522847f45c2",
+                        "rating": 4,
+                        "review": "sdjbsdljvbsjkdvb",
+                        "user_id": 12,
+                        "user_name": "Vajid"
+                    }
+                ],
+                "date_added": "2018-04-14T19:10:07.956Z",
+                "_id": 2,
+                "title": "Black Panthar",
+                "trailer_link": "www.u.com",
+                "release_date": "2018-04-25T07:00:00.000Z",
+                "movie_length": 126,
+                "movie_definition": "HHD",
+                "movie_logo": "_1523735110503_avatar2.png",
+                "__v": 5
+            }
+        },{
+            "price": {
+                "adult": 12,
+                "child": 12,
+                "disabled": 12,
+                "student": 12
+            },
+            "_id": {
+                "$oid": "5adbad72db3ec109d0e851a6"
+            },
+            "screen_number": "2",
+            "screen_id": "5adaba89496ec52e603067f2",
+            "date_time": "Saturday, April 21, 2018 3:15 PM",
+            "sort_field": 1524348900000,
+            "seats_left": 12,
+            "movie": {
+                "mpaa_ratings": [
+                    "PG"
+                ],
+                "movie_keywords": [
+                    "sasdasd"
+                ],
+                "number_clicks": 0,
+                "movie_characters": [
+                    {
+                        "_id": "5ad6fbeef210f244382bb1e8",
+                        "name": "sjcsdj",
+                        "image_path": "_1524038637923_avatar2.png"
+                    },
+                    {
+                        "_id": "5ad6fbfff210f244382bb1e9",
+                        "name": "sjcsdj",
+                        "image_path": "_1524038655615_avatar2.png"
+                    },
+                    {
+                        "_id": "5ad6fd1cf210f244382bb1ea",
+                        "name": "acasdc",
+                        "image_path": "_1524038940277_avatar2.png"
+                    },
+                    {
+                        "_id": "5ad6fd6bf210f244382bb1eb",
+                        "name": "ssdvsdv",
+                        "image_path": "_1524039019624_avatar2.png"
+                    }
+                ],
+                "review_ratings": [
+                    {
+                        "likes_count": 0,
+                        "_id": "5ad84cb8b8c90522847f45c2",
+                        "rating": 4,
+                        "review": "sdjbsdljvbsjkdvb",
+                        "user_id": 12,
+                        "user_name": "Vajid"
+                    }
+                ],
+                "date_added": "2018-04-14T19:10:07.956Z",
+                "_id": 2,
+                "title": "Black Panthar",
+                "trailer_link": "www.u.com",
+                "release_date": "2018-04-25T07:00:00.000Z",
+                "movie_length": 126,
+                "movie_definition": "HHD",
+                "movie_logo": "_1523735110503_avatar2.png",
+                "__v": 5
+            }
+        },
