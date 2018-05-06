@@ -1208,6 +1208,11 @@ p.join-header {
   margin-top: 24px;
 }
 
+p.join-header1 {
+  margin-left: 9px;
+  margin-top: 7px;
+}
+
 div#chat-block {
   margin-left: 30%;
   margin-top: 5%;
