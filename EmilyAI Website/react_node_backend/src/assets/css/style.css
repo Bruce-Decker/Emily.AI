@@ -1,4 +1,29 @@
 
+
+.radiotest{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.statement{
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.card{
+  border-color: #1a1a1a ;
+}
+
+.question-wrapper{
+  padding-top: 15px;
+}
+
+#comment{
+  width: 100%;
+}
+
 /* .multiplexadmin {
     background-color: #555555;
 }

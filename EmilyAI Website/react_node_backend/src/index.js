@@ -16,7 +16,7 @@ import SignUp from "./Components/SignUp";
 import AdminGraphs from "./Components/AdminGraphs";
 import AllBillingDetails from "./Components/AllBillingDetails";
 import ListAllUsers from "./Components/ListAllUsers";
-
+import PsychologyTest from "./Components/PsychologyTest"
 import ChatBot from "./Components/ChatBot";
 
 const store = createStore(allReducers);
@@ -34,6 +34,7 @@ ReactDOM.render(
         <Route exact path="/allbillingdetails" component={AllBillingDetails} />
         <Route exact path="/listallusers" component={ListAllUsers} />
         <Route exact path="/chat" component={ChatBot} />
+        <Route exact path="/psychologytest" component={PsychologyTest} />
       </div>
     </Router>
   </Provider>,
