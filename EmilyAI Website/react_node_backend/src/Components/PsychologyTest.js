@@ -64,6 +64,12 @@ class PsychologyTest extends Component {
            .then( response => {
                 console.log( response.data );
            })
+
+        let url1 = envURL + 'mine';
+       axios.post(url1, answer, {  withCredentials : true})
+           .then(response => {
+               console.log(response.data);
+           })
     };
 
     handleChange = (e) => {
