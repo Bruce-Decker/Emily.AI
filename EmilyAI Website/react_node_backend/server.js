@@ -12,6 +12,37 @@ var MySQLStore = require('express-mysql-session')(session);
 var mongodbStore = require('connect-mongo')(session);
 var router = express.Router();
 
+//Blockchain
+const Blockchain = require('../../blockchain');
+const P2pServer = require('../../p2p-server');
+
+const bc = new Blockchain();
+const p2pServer = new P2pServer(bc);
+//
+//
+// app.get('/blocks', function(req, res) {
+//     res.json(bc.chain)
+// })
+//
+// app.post('/mine', function(req, res) {
+//
+//     const block = bc.addBlock(req.body.comment)
+//
+//     console.log(`New block added: ${block.toString()}`);
+//     p2pServer.syncChains();
+//     res.redirect('/addBlockchain')
+// })
+
+app.get('/test', function(req, res) {
+     res.send("test")
+});
+
+app.get('/blocks', function(req, res) {
+    res.json(bc.chain);
+    console.log("INside Blocks")
+});
+
+
 
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://root:root@ds243059.mlab.com:43059/fandango', { poolSize: 10 })

@@ -1,3 +1,6 @@
+var express = require('express');
+
+
 var db_controller;
 var bcrypt = require('bcrypt');
 var multiparty = require('multiparty');
@@ -6,12 +9,42 @@ var User = require('../model/user.js');
 var passport = require('../config/passport.js');
 var kafka = require('../kafka/client');
 var redisClient = require('../config/redis').getClient();
+var app = express();
+
+
+//Blockchain
+const Blockchain = require('../../../../blockchain');
+const P2pServer = require('../../../../app/p2p-server');
+
+const bc = new Blockchain();
+const p2pServer = new P2pServer(bc);
 
 var winston = require('../config/winston');
 
 //saving user test data comment
-exports.saveUsertestdata = (req, res) =>{
+exports.saveUsertestdata = (req, res) => {
     console.log(req.body);
+
+    // app.post('/mine', function(req, res) {
+    //     console.log("INside Blocks");
+    //
+    //     const block = bc.addBlock(req.body.comment);
+    //
+    //     console.log(`New block added: ${block.toString()}`);
+    //     p2pServer.syncChains();
+    //     res.redirect('/addBlockchain')
+    // })
+
+};
+
+exports.saveBlockchainData =(req, res) => {
+    console.log(req.body);
+
+    const block = bc.addBlock(req.body.comment);
+
+    console.log(`New block added: ${block.toString()}`);
+    p2pServer.syncChains();
+    res.redirect('/addBlockchain')
 
 };
 
