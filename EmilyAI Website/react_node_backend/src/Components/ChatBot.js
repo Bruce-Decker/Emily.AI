@@ -88,16 +88,49 @@ class ChatBot extends Component {
     }
   }
 
+    componentDidMount() {
+
+        // document.onkeypress = function(e) {
+        //     e = e || window.event;
+        //     var charCode = (typeof e.which == "number") ? e.which : e.keyCode;
+        //     if (charCode) {
+        //         alert("Character typed: " + String.fromCharCode(charCode));
+        //     }
+        // };
+
+        document.addEventListener('keydown', function(event) {
+                if(event.keyCode === 13 ) {
+                        console.log("Enter key pressed");
+                        let text = document.getElementById('query').value;
+                        console.log("User Entered Text : ", text )
+                    }
+            });
+   }
+
+    eventListener = () => {
+        let s = document.getElementById("query").value;
+        console.log( 'Event Listener Activated', s );
+        // s = s.replace(/(^\s*)|(\s*$)/gi,"");
+        // s = s.replace(/[ ]{2,}/gi," ");
+        // s = s.replace(/\n /,"\n");
+        // if (s.split(' ').length <= 100 ) {
+        //     alert("not enough words...");
+        // }
+        // else {
+        //     this.handleSubmit();
+        // }
+    };
+
   render() {
     return (
     <div>
       <Header />
       <div id="chat-block">
-        <iframe
-            width="650"
-            height="530"
-            src="https://console.dialogflow.com/api-client/demo/embedded/37b30122-b99a-4b42-81cb-5d2da4d2d196">
-        </iframe>
+            <iframe
+              width="650"
+              height="530"
+              src="https://console.dialogflow.com/api-client/demo/embedded/37b30122-b99a-4b42-81cb-5d2da4d2d196">
+          </iframe>
       </div>
       <br/>
       <br/>

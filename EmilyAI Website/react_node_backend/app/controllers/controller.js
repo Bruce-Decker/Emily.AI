@@ -9,6 +9,12 @@ var redisClient = require('../config/redis').getClient();
 
 var winston = require('../config/winston');
 
+//saving user test data comment
+exports.saveUsertestdata = (req, res) =>{
+    console.log(req.body);
+
+};
+
 //Creating New Multiplex Admin
 exports.createMultiplexAdmin = (req, res) => {
     console.log("In Node Backend, Creating new multiplex admin", req.body);

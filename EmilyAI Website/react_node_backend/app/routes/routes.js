@@ -130,6 +130,8 @@ module.exports = function (app) {
     app.post('/updateUserImage', api_controller.updateUserImage);
 
     app.post('/getMultiplexAdminGraph', api_controller.getMultiplexAdminGraph);
+
+    app.post('/usertestdata', api_controller.saveUsertestdata)
     
 };
 
