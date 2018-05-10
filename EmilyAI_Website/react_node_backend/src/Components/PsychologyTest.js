@@ -58,9 +58,8 @@ class PsychologyTest extends Component {
     };
 
     handleSubmit = (e) => {
-        // e.preventDefault();
-       alert("Form Submitted");
-    //    let url = envURL + 'usertestdata';
+     e ? e.preventDefault() : "";
+        swal("Records saved Successfully", "", "success");
        let answer = {
            data : this.state.usercomment
        };
@@ -74,7 +73,11 @@ class PsychologyTest extends Component {
        axios.post(url1, answer, {  withCredentials : true})
            .then(response => {
                console.log(response.data);
+               window.location.href = "http://localhost:3000/login"
            })
+
+               //    let url = envURL + 'usertestdata';
+
     };
 
     handleChange = (e) => {
@@ -237,25 +240,25 @@ class PsychologyTest extends Component {
                                 <div class="hidden-xs col-sm-3 caption left sets-answer" data-value="-3">Agree</div>
                                 <div class="col-xs-10 col-sm-6 options btn-group" data-toggle="buttons" role="group" aria-label="Options">
                                     <label className='radiotest radio' data-value="-3">
-                                        <input type="radio" name="options" autocomplete="off" required/>
+                                        <input type="radio" name="options3" autocomplete="off" required/>
                                     </label>
                                     <label className='radiotest' data-value="-2">
-                                        <input type="radio" name="options" autocomplete="off"/>
+                                        <input type="radio" name="options3" autocomplete="off"/>
                                     </label>
                                     <label className='radiotest' data-value="-1">
-                                        <input type="radio" name="options" autocomplete="off"/>
+                                        <input type="radio" name="options3" autocomplete="off"/>
                                     </label>
                                     <label className='radiotest' data-value="0">
-                                        <input type="radio" name="options" autocomplete="off"/>
+                                        <input type="radio" name="options3" autocomplete="off"/>
                                     </label>
                                     <label className='radiotest' data-value="1">
-                                        <input type="radio" name="options" autocomplete="off"/>
+                                        <input type="radio" name="options3" autocomplete="off"/>
                                     </label>
                                     <label className='radiotest' data-value="2">
-                                        <input type="radio" name="options" autocomplete="off"/>
+                                        <input type="radio" name="options3" autocomplete="off"/>
                                     </label>
                                     <label className='radiotest' data-value="3">
-                                        <input type="radio" name="options" autocomplete="off"/>
+                                        <input type="radio" name="options3" autocomplete="off"/>
                                     </label>
                                 </div>
                                 <div class="hidden-xs col-sm-3 caption right sets-answer" data-value="3">Disagree</div>
@@ -281,22 +284,22 @@ class PsychologyTest extends Component {
                                         <input type="radio" name="options" autocomplete="off" required/>
                                     </label>
                                     <label className='radiotest' data-value="-2">
-                                        <input type="radio" name="options" autocomplete="off"/>
+                                        <input type="radio" name="options4" autocomplete="off"/>
                                     </label>
                                     <label className='radiotest' data-value="-1">
-                                        <input type="radio" name="options" autocomplete="off"/>
+                                        <input type="radio" name="options4" autocomplete="off"/>
                                     </label>
                                     <label className='radiotest' data-value="0">
-                                        <input type="radio" name="options" autocomplete="off"/>
+                                        <input type="radio" name="options4" autocomplete="off"/>
                                     </label>
                                     <label className='radiotest' data-value="1">
-                                        <input type="radio" name="options" autocomplete="off"/>
+                                        <input type="radio" name="options4" autocomplete="off"/>
                                     </label>
                                     <label className='radiotest' data-value="2">
-                                        <input type="radio" name="options" autocomplete="off"/>
+                                        <input type="radio" name="options4" autocomplete="off"/>
                                     </label>
                                     <label className='radiotest' data-value="3">
-                                        <input type="radio" name="options" autocomplete="off"/>
+                                        <input type="radio" name="options4" autocomplete="off"/>
                                     </label>
                                 </div>
                                 <div class="hidden-xs col-sm-3 caption right sets-answer" data-value="3">Disagree</div>
