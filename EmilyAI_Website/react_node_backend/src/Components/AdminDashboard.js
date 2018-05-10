@@ -8,7 +8,7 @@ import AllBillingDetails from './AllBillingDetails';
 import ListAllUsers from './ListAllUsers'
 import AdminGraphs from './AdminGraphs';
 import MultiplexAdminGraph from './MultiplexAdminGraph'
-
+import MultiplexAdminForm from './MultiplexAdmin'
 class AdminDashboard extends Component {
     constructor(props) {
         super(props);
@@ -52,7 +52,7 @@ class AdminDashboard extends Component {
                             console.log("Admin ID:", this.state.adminId);
                             if(this.state.roleId==3){
                                 localStorage.setItem('admin_name','Fandango Admin')
-                                this.setState({addDashboard: true})
+                                this.setState({addMultiplexAdmin: true})
                             }
                             else{
                                 if(this.state.roleId == 2){
@@ -169,7 +169,7 @@ class AdminDashboard extends Component {
                                 </a>
                             </li> : ''}
 
-                            {localStorage.getItem('roleId')==2 ?
+                            {/* {localStorage.getItem('roleId')==2 ?
                             <li class="nav-item" value={showMultiplexGraphDashboard} onClick={this.handleLinkClick.bind(this)} data-toggle="tooltip" data-placement="right" title="" data-original-title="Link">
                                 <a class="sidebar-link" href="#" value={showMultiplexGraphDashboard} onClick={this.handleLinkClick.bind(this)}>
                                     <span class="icon-holder">
@@ -177,7 +177,7 @@ class AdminDashboard extends Component {
                                         </span><span class="title">Dashboard
                                     </span>
                                 </a>
-                            </li> : ''}
+                            </li> : ''} */}
 
                             {localStorage.getItem('roleId')==3 ?
                             <li class="nav-item" value={addMultiplexAdmin} onClick={this.handleLinkClick.bind(this)} data-toggle="tooltip" data-placement="right" title="" data-original-title="Link">
@@ -189,7 +189,7 @@ class AdminDashboard extends Component {
                                 </a>
                             </li> : ''}
                             
-                            {localStorage.getItem('roleId')==3 ?
+                            {/* {localStorage.getItem('roleId')==3 ?
                             <li class="nav-item" value={addMovie} onClick={this.handleLinkClick.bind(this)} data-toggle="tooltip" data-placement="right" title="" data-original-title="Link">
                                 <a class="sidebar-link" href="#" value={addMovie} onClick={this.handleLinkClick.bind(this)}>
                                     <span class="icon-holder">
@@ -241,7 +241,7 @@ class AdminDashboard extends Component {
                                         <i class="c-teal-500 ti-view-list-alt"></i> 
                                         </span><span class="title">Show Users List</span>
                                 </a>
-                            </li> : ''}
+                            </li> : ''} */}
 
                             </ul>
                         </div>
@@ -363,7 +363,7 @@ class AdminDashboard extends Component {
     returnMultiplexGraph() {
         return (
             <div class="container-fluid">
-            <h3 class="data-header">Dashboard</h3>
+            {/* <h3 class="data-header">Dashboard</h3>
             <br/>
             <div class="row">
                 <div class="col-md-12">
@@ -371,7 +371,7 @@ class AdminDashboard extends Component {
                     <MultiplexAdminGraph />
                     </div>
                 </div>
-            </div>            
+            </div>             */}
         </div>
         )
     }
@@ -379,15 +379,15 @@ class AdminDashboard extends Component {
     returnMultiplexBillings() {
         return (
             <div class="container-fluid">
-            <h3 class="data-header">All Multiplex Billings</h3>
+            {/* <h3 class="data-header">All Multiplex Billings</h3>
             <br/>
             <div class="row">
                 <div class="col-md-12">
                     <div class="admin-list bgc-white bd bdrs-3 p-20 mB-20">
-                    {/*<ShowMultiplexBillings />*/}
+                    <ShowMultiplexBillings />
                     </div>
                 </div>
-            </div>            
+            </div>             */}
         </div>
         )
     }
@@ -396,15 +396,15 @@ class AdminDashboard extends Component {
     returnMovie() {
         return (
             <div class="container-fluid">
-            <h3 class="data-header">Movie Dashboard</h3>
+            {/* <h3 class="data-header">Movie Dashboard</h3>
             <br/>
             <div class="row">
                 <div class="col-md-12">
                     <div class="admin-list bgc-white bd bdrs-3 p-20 mB-20">
-                    {/*<MovieForm />*/}
+                    <MovieForm />
                     </div>
                 </div>
-            </div>            
+            </div>             */}
         </div>
         )
     }
@@ -412,7 +412,7 @@ class AdminDashboard extends Component {
     returnUserList() {
         return (
             <div class="container-fluid">
-            <h3 class="data-header">User Details Dashboard</h3>
+            {/* <h3 class="data-header">User Details Dashboard</h3>
             <br/>
             <div class="row">
                 <div class="col-md-12">
@@ -420,7 +420,7 @@ class AdminDashboard extends Component {
                     <ListAllUsers />
                     </div>
                 </div>
-            </div>            
+            </div>             */}
         </div>
         )
     }
@@ -428,7 +428,7 @@ class AdminDashboard extends Component {
     returnBillingDetails() {
         return (
             <div class="container-fluid">
-            <h3 class="data-header">All Billing Details</h3>
+            {/* <h3 class="data-header">All Billing Details</h3>
             <br/>
             <div class="row">
                 <div class="col-md-12">
@@ -436,7 +436,7 @@ class AdminDashboard extends Component {
                     <AllBillingDetails />
                     </div>
                 </div>
-            </div>            
+            </div>             */}
         </div>
         )
     }
@@ -445,15 +445,15 @@ class AdminDashboard extends Component {
     returnShowTimings() {
         return (
             <div class="container-fluid">
-            <h3 class="data-header">Show Timings Dashboard</h3>
+            {/* <h3 class="data-header">Show Timings Dashboard</h3>
             <br/>
             <div class="row">
                 <div class="col-md-12">
                     <div class="admin-list bgc-white bd bdrs-3 p-20 mB-20">
-                        {/*<ShowTimingsForm />*/}
+                        <ShowTimingsForm />
                     </div>
                 </div>
-            </div>            
+            </div>             */}
         </div>
         )
     }
@@ -461,12 +461,12 @@ class AdminDashboard extends Component {
     returnMultiplexAdmin() {
         return (
             <div class="container-fluid">
-            <h3 class="data-header">Multiplex Admin Dashboard</h3>
+            <h3 class="data-header">EmilyAI Admin Dashboard</h3>
             <br/>
             <div class="row">
                 <div class="col-md-12">
                     <div class="admin-list bgc-white bd bdrs-3 p-20 mB-20">
-                        {/*<MultiplexAdminForm />*/}
+                        <MultiplexAdminForm />
                     </div>
                 </div>
             </div>            
@@ -478,15 +478,15 @@ class AdminDashboard extends Component {
     returnMultiplex() {
         return (
             <div class="container-fluid">
-            <h3 class="data-header">Multiplex Dashboard</h3>
+            {/* <h3 class="data-header">Multiplex Dashboard</h3>
             <br/>
             <div class="row">
                 <div class="col-md-12">
                     <div class="admin-list bgc-white bd bdrs-3 p-20 mB-20">
-                        {/*<MultiplexForm />*/}
+                        <MultiplexForm />
                     </div>
                 </div>
-            </div>            
+            </div>             */}
         </div>
         )
     }

@@ -140,8 +140,9 @@ class SignUp extends Component {
                             })
                         }
                         else {
+                            debugger
                             swal("Account Created Successfully", "", "success");
-                            this.props.history.push('/login')
+                            window.location.href = "http://localhost:3000/PsychologyTest"
                         }
                     }
                 )

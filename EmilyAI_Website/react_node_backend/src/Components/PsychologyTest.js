@@ -3,10 +3,11 @@ import axios from 'axios';
 import Index from './Index';
 import Header from './Header';
 import Footer from './Footer';
-import swal from 'sweetalert';
 import '../assets/css/style.css'
 import ProfileImage from './ProfileImage';
 import { envURL, reactURL } from '../config/environment';
+import swal from 'sweetalert2';
+
 
 class PsychologyTest extends Component {
 
@@ -29,7 +30,7 @@ class PsychologyTest extends Component {
             // state_name: 'AL',
             // city: '',
             // cardZipCode : ''
-            usercomment : ''
+            usercomment : 'I will finish this program by tonight. Not too bad for me to complete. Since I am very hard working, it will not be an issue for me Any text ever generated, in whatsoever random format, will and has been present in this library in perpetuity.A wiki is run using wiki software, otherwise known as a wiki engine. A wiki engine is a type of content management system, but it differs from most other such systems, including blog software, in that the content is created without any defined owner or leader, and wikis have little implicit structure, allowing structure to emerge according to the needs of the users.[2] There are dozens of different wiki engines in use, both standalone and part of other software, such as bug tracking systems. Some wiki engines are open source, whereas others are proprietary. Some permit control over different functions (levels of access); for example, editing rights may permit changing, adding or removing material. Others may permit access without enforcing access control. Other rules may be imposed to organize content.'
         });
         this.handleChange = this.handleChange.bind(this);
     }
@@ -45,7 +46,11 @@ class PsychologyTest extends Component {
         s = s.replace(/[ ]{2,}/gi," ");
         s = s.replace(/\n /,"\n");
         if (s.split(' ').length <= 100 ) {
-            alert("not enough words...");
+            swal({
+                type: 'error',
+                title: 'Insufficient Words',
+                text: 'Please enter atleast 100 words',
+            })
         }
         else {
             this.handleSubmit();
@@ -55,15 +60,15 @@ class PsychologyTest extends Component {
     handleSubmit = (e) => {
         // e.preventDefault();
        alert("Form Submitted");
-       let url = envURL + 'usertestdata';
+    //    let url = envURL + 'usertestdata';
        let answer = {
-           comment : this.state.usercomment
+           data : this.state.usercomment
        };
-       console.log(answer);
-       axios.post( url, answer, { withCredentials : true } )
-           .then( response => {
-                console.log( response.data );
-           })
+       
+    //    axios.post( url, answer, { withCredentials : true } )
+    //        .then( response => {
+    //             console.log( response.data );
+    //        })
 
         let url1 = envURL + 'mine';
        axios.post(url1, answer, {  withCredentials : true})
@@ -153,22 +158,22 @@ class PsychologyTest extends Component {
                                         <input type="radio" name="options" autocomplete="off" required/>
                                     </label>
                                     <label className='radiotest' data-value="-2">
-                                        <input type="radio" name="options" autocomplete="off"/>
+                                        <input type="radio" name="options1" autocomplete="off"/>
                                     </label>
                                     <label className='radiotest' data-value="-1">
-                                        <input type="radio" name="options" autocomplete="off"/>
+                                        <input type="radio" name="options1" autocomplete="off"/>
                                     </label>
                                     <label className='radiotest' data-value="0">
-                                        <input type="radio" name="options" autocomplete="off"/>
+                                        <input type="radio" name="options1" autocomplete="off"/>
                                     </label>
                                     <label className='radiotest' data-value="1">
-                                        <input type="radio" name="options" autocomplete="off"/>
+                                        <input type="radio" name="options1" autocomplete="off"/>
                                     </label>
                                     <label className='radiotest' data-value="2">
-                                        <input type="radio" name="options" autocomplete="off"/>
+                                        <input type="radio" name="options1" autocomplete="off"/>
                                     </label>
                                     <label className='radiotest' data-value="3">
-                                        <input type="radio" name="options" autocomplete="off"/>
+                                        <input type="radio" name="options1" autocomplete="off"/>
                                     </label>
                                 </div>
                                 <div class="hidden-xs col-sm-3 caption right sets-answer" data-value="3">Disagree</div>
@@ -194,22 +199,22 @@ class PsychologyTest extends Component {
                                         <input type="radio" name="options" autocomplete="off" required />
                                     </label>
                                     <label className='radiotest' data-value="-2">
-                                        <input type="radio" name="options" autocomplete="off"/>
+                                        <input type="radio" name="options2" autocomplete="off"/>
                                     </label>
                                     <label className='radiotest' data-value="-1">
-                                        <input type="radio" name="options" autocomplete="off"/>
+                                        <input type="radio" name="options2" autocomplete="off"/>
                                     </label>
                                     <label className='radiotest' data-value="0">
-                                        <input type="radio" name="options" autocomplete="off"/>
+                                        <input type="radio" name="options2" autocomplete="off"/>
                                     </label>
                                     <label className='radiotest' data-value="1">
-                                        <input type="radio" name="options" autocomplete="off"/>
+                                        <input type="radio" name="options2" autocomplete="off"/>
                                     </label>
                                     <label className='radiotest' data-value="2">
-                                        <input type="radio" name="options" autocomplete="off"/>
+                                        <input type="radio" name="options2" autocomplete="off"/>
                                     </label>
                                     <label className='radiotest' data-value="3">
-                                        <input type="radio" name="options" autocomplete="off"/>
+                                        <input type="radio" name="options2" autocomplete="off"/>
                                     </label>
                                 </div>
                                 <div class="hidden-xs col-sm-3 caption right sets-answer" data-value="3">Disagree</div>
@@ -305,7 +310,7 @@ class PsychologyTest extends Component {
                         <br/>
                         <br/>
                         <label> Provide Comments about yourself to know more about your personality (not less than 100 words) </label>
-                        <textarea className="form-control" rows="5" id="comment" name='usercomment' onChange={this.handleChange} required />
+                        <textarea className="form-control" rows="5" id="comment" name='usercomment' value={this.state.usercomment} onChange={this.handleChange} required />
                         <br/>
                         <br/>
                         <button className='text-center' onClick={this.checkWordCount}>

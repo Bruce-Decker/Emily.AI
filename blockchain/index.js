@@ -6,10 +6,13 @@ class Blockchain {
 	}
 
 	addBlock(data) {
-	
-		const block = Block.mineBlock(this.chain[this.chain.length - 1], data);
-		this.chain.push(block);
+		console.log("I have reached in " + data)
 
+
+		console.log("Checking in " + this.chain[this.chain.length - 1])
+		const block = Block.mineBlock(this.chain[this.chain.length - 1], data);
+		this.chain.push(block);	
+		console.log(this.chain);
 		return block;
 
 	}

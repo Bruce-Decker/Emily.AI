@@ -33,7 +33,7 @@ class Block {
         const lastHash = lastBlock.hash;
         let hash, timestamp;
         let { difficulty } = lastBlock;
-     
+        console.log('inside mineblock....')
         let nonce = 0;
         do {
             nonce++;

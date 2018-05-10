@@ -1,6 +1,6 @@
 const Websocket = require('ws');
 
-const P2P_PORT = process.env.P2P_PORT || 5001;
+const P2P_PORT = process.env.P2P_PORT || 8080;
 const peers = process.env.PEERS ? process.env.PEERS.split(',') : [];
 const MESSAGE_TYPES = {
   chain: 'CHAIN',
@@ -16,6 +16,7 @@ class P2pServer {
   }
 
   listen() {
+    console.log("I am listening on" + P2P_PORT)
     const server = new Websocket.Server({ port: P2P_PORT });
     server.on('connection', socket => this.connectSocket(socket));
 
@@ -59,6 +60,7 @@ class P2pServer {
   }
 
   sendChain(socket) {
+    console.log("I am in chain" + this.blockchain.chain);
     socket.send(JSON.stringify({
       type: MESSAGE_TYPES.chain,
       chain: this.blockchain.chain
@@ -73,6 +75,8 @@ class P2pServer {
   }
 
   syncChains() {
+    console.log("I have reached");
+    console.log("I am all the sockets" + this.sockets)
     this.sockets.forEach(socket => this.sendChain(socket));
   }
 

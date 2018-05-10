@@ -89,7 +89,7 @@ class ChatBot extends Component {
   }
 
     componentDidMount() {
-
+        debugger
         // document.onkeypress = function(e) {
         //     e = e || window.event;
         //     var charCode = (typeof e.which == "number") ? e.which : e.keyCode;
@@ -98,8 +98,10 @@ class ChatBot extends Component {
         //     }
         // };
 
+        
         document.addEventListener('keydown', function(event) {
                 if(event.keyCode === 13 ) {
+                    debugger
                         console.log("Enter key pressed");
                         let text = document.getElementById('query').value;
                         console.log("User Entered Text : ", text )
@@ -107,8 +109,18 @@ class ChatBot extends Component {
             });
    }
 
+
+
+   getForm(e){
+       e.preventDefault();
+       debugger
+    document.getElementById("agentDemoForm").onsubmit(function(){
+            
+    })
+   }
+
     eventListener = () => {
-        let s = document.getElementById("query").value;
+        let s = document.getElementById("query");
         console.log( 'Event Listener Activated', s );
         // s = s.replace(/(^\s*)|(\s*$)/gi,"");
         // s = s.replace(/[ ]{2,}/gi," ");
@@ -126,7 +138,7 @@ class ChatBot extends Component {
     <div>
       <Header />
       <div id="chat-block">
-            <iframe
+            <iframe onChange = {this.getForm.bind(this)}
               width="650"
               height="530"
               src="https://console.dialogflow.com/api-client/demo/embedded/37b30122-b99a-4b42-81cb-5d2da4d2d196">

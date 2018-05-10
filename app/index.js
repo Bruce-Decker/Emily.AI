@@ -5,7 +5,7 @@ const P2pServer = require('./p2p-server')
 const Wallet = require('../wallet')
 const TransactionPool = require('../wallet/transaction-pool');
 
-const HTTP_PORT = process.env.HTTP_PORT || 3001;
+const HTTP_PORT = process.env.HTTP_PORT || 3002;
 
 const app = express();
 const bc = new Blockchain();
@@ -15,17 +15,17 @@ const p2pServer = new P2pServer(bc, tp);
 
 app.use(bodyParser.json())
 
-app.get('/blocks', function(req, res) {
-   res.json(bc.chain)
-})
+//app.get('/blocks', function(req, res) {
+  // res.json(bc.chain)
+//})
 
-app.post('/mine', function(req, res) {
-	const block = bc.addBlock(req.body.data)
+// app.post('/mine', function(req, res) {
+// 	const block = bc.addBlock(req.body.data)
 
-	console.log(`New block added: ${block.toString()}`);
-	p2pServer.syncChains();
-	res.redirect('/blocks')
-})
+// 	console.log(`New block added: ${block.toString()}`);
+// 	p2pServer.syncChains();
+// 	res.redirect('/blocks')
+// })
 
 app.get('/transactions', (req, res) => {
 	res.json(tp.transactions);

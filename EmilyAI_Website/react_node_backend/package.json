@@ -36,7 +36,8 @@
     "redux": "^3.7.2",
     "render-if": "^0.1.1",
     "sweetalert": "^2.1.0",
-    "sweetalert2": "^7.18.0",
+    "sweetalert2": "^7.19.3",
+    "watson-developer-cloud": "^3.4.1",
     "winston": "^3.0.0-rc1"
   },
   "scripts": {

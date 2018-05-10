@@ -12,12 +12,16 @@ var MySQLStore = require('express-mysql-session')(session);
 var mongodbStore = require('connect-mongo')(session);
 var router = express.Router();
 
+const Wallet = require('../../wallet')
+const TransactionPool = require('../../wallet/transaction-pool');
+const wallet = new Wallet();
+const tp = new TransactionPool();
 //Blockchain
 const Blockchain = require('../../blockchain');
 const P2pServer = require('../../p2p-server');
 
-const bc = new Blockchain();
-const p2pServer = new P2pServer(bc);
+// const bc = new Blockchain();
+// const p2pServer = new P2pServer(bc);
 //
 //
 // app.get('/blocks', function(req, res) {
@@ -37,12 +41,14 @@ app.get('/test', function(req, res) {
      res.send("test")
 });
 
-app.get('/blocks', function(req, res) {
-    res.json(bc.chain);
-    console.log("INside Blocks")
-});
+// app.get('/blocks', function(req, res) {
+//     console.lo
+//     res.json(bc.chain);
+//     console.log("INside Blocks")
+// });
 
-
+// 
+//p2pServer.listen();
 
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://root:root@ds243059.mlab.com:43059/fandango', { poolSize: 10 })
@@ -68,7 +74,6 @@ app.use(function (req, res, next) {
   res.setHeader('Cache-Control', 'no-cache');
   next();
 });
-
 
 //Added to support session storing in database
 var options = {

@@ -131,11 +131,14 @@ module.exports = function (app) {
 
     app.post('/getMultiplexAdminGraph', api_controller.getMultiplexAdminGraph);
 
-    app.post('/usertestdata', api_controller.saveUsertestdata)
+    // app.post('/usertestdata', api_controller.saveUsertestdata)
 
     app.post('/mine', api_controller.saveBlockchainData);
+    app.get('/blocks', api_controller.getBlockChainData);
 
 
     };
+
+    
 
 
