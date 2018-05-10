@@ -1,6 +1,6 @@
+# Emily.AI
 # Team-Project-14
-
-I like idea#1 , tweak this to also figure out if user has potential mental issues and then you can tie this up to stop gun violence movement solution. go for it.
+![alt text](Pictures/logo.png "Description goes here")
 
 Bruce Decker
 
@@ -10,16 +10,26 @@ Murtaza Manasawala
 
 Pradnyesh Patil
 
-Idea #1
-Inspired by movie "her". We will build a conversation chatbot for people who feel lonely and depressed. This product will be a companinon in daily life, which will help users with simple tasks like searching, finding out about the nearest location. We will implement machine learning techniques that will make the chatbot smart and imitate a real human being. DialogFlow (API.AI) and Alexa will be used in this project.
+## Introduction 
+Inspired by movie "her". We will build a conversation chatbot for people who feel lonely and depressed. This product will be a companinon in daily life, which will help users with simple tasks like searching, finding out about the nearest location. We will implement machine learning techniques that will make the chatbot smart and imitate a real human being. DialogFlow (API.AI), web based assistant and  Google Home Assistant will be used in this project.
 
-Idea #2
-dishClose - Predict ingredients that went into a dish and prepare recipe by just analyzing the picture of a dish
-Using Image analysis, system finds the keywords associated with the dish and then uses ML to figure out what ingredients might be used. Then suggest new recipes based on the ingredients.
+## Solving Societal Problem 
+In today's society, a percentage of the population feel lonely and depressed due to various circumstances. Many people are afraid of talking about their problems. Many refused to go to a psychologist due to cost and accessibility. Depression can cause gun violence and other crimes. 
+
+## Implementation
+Our company created an emotionally intelligent chatbot, which will help with an average user's depression. It's modeled after a lot of conversations and dialogs done by psychologists. In DialogFlow, it uses machine learning algorithm to train the bot so the conversation feels natural. 
+
+## Technology Used
+1. IBM Watson Personality Insights API
+2. DialogFlow based machine learning model 
+3. Blockchain written in Javascript
+4. React
+5. Node.JS
+6. Kafka
+7. MongoDB
+8. Passport.JS
+9. Brcypt Passport Encryption Module
+9. Elliptic Module
+10. Google Home Assistant 
 
 
-Idea #3
-
-Building a website or an application which will allow  the users to put up and showcase their expertise in various domains or genres in the form of videos and pictures. The users of this site can avail the services by contacting the relevant people according to their needs or requirements. This site can also have a payment gateway which will be integrated using paypal or stripe. This will help people who are not working to earn and show their talent. For example, a person is good at cooking, he can upload images of the various food items cooked by him and people interested can contact and order them according to their needs. This application will also have functionalities like Pickup order, Home delivery etc.
-
-The technology implemented in this website are react, angular as the front end and nodejs, ruby, python  as the back end.
