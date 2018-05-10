@@ -1,5 +1,6 @@
 # Emily.AI
 # Team-Project-14
+![alt text](Pictures/logo.png "Description goes here")
 
 Bruce Decker
 
