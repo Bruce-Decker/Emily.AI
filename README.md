@@ -93,6 +93,7 @@ Anna, a woman with insecurities, who constantly worries about the leakage and sp
 3. Improve UI
 4. Implement BlockDB
 5. Implement machine learning and analytics in this website 
+6. Implement on Google Assistant 
 
 
 
