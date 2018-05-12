@@ -1,14 +1,15 @@
 # Emily.AI
 # Team-Project-14
-![alt text](Pictures/logo.png=100x20 "Description goes here")
+
 
 Bruce Decker
-
-Mahitee Satasiya
 
 Murtaza Manasawala
 
 Pradnyesh Patil
+
+Mahitee Satasiya
+
 
 ## Introduction 
 Inspired by movie "her". We will build a conversation chatbot for people who feel lonely and depressed. This product will be a companion in daily life, which will help users with simple tasks like searching, finding out about the nearest location. Many depressed people don’t have the access to psychiatrists. Hence, they need a product that will help them express themselves. We will implement machine learning techniques that will make the chatbot smart and imitate a real human being. DialogFlow (API.AI), web based assistant and Google Home Assistant will be used in this project. The questions and answers in DialogFlow were modeled after psychiatrists’ questions.  DialogFlow performed machine learning under the hood to make the interaction smooth and human-like. Chatbot applications will be the future of human-computer interaction. Using natural language, the interact is faster and easy. I will continue working on this project in the future since my passion is natural language processing and deep learning. I believe advances in natural language processing will help society. 
@@ -54,6 +55,31 @@ npm install watson-developer-cloud
 Auth for API Key
 
 Username, password and url were acquired from IBM Cloud account. 
+
+### Blockchain
+
+![alt text](Pictures/blockchain.jpeg "Description goes here")
+
+A blockchain is a distributed database that continuously grows in order according to demand. The most famous blockchain based services are Bitcoin and Ethereum. Not only blockchain technology can be used in finance, it can used in storing medical records in a secure and private manner. A block is the most fundamental structure of a blockchain. It includes index, timestamp, data, hash and previous. A block class was written in Javascript in project which includes those parameters as mentioned above. 
+
+In addition, a block needs to be hashed to make sure the data is secure. No one can tamper with the data in the future. In Nodejs, I used SHA-256 library to implement hashing. It is a cryptographic hash function to produce an output using input. It will be difficult to reconstruct input using output. 
+
+In order to generate a block, the hash of the previous block must be known. The first block is alway called “genesis”, and it contains no data. The integrity of the entire blockchain must be validated before creating a new block. There is only one set of blocks in the chain. If there is a conflict, the chain with the highest number of blocks is chosen. It is indispensable to share and sync the blockchain with other nodes. If a node generates a new block, it will notify the network. If a node sees a block that has an index larger than the current known block, it adds the current block or query the blockchain. 
+
+In Node.js, endpoints were written for HTTP requests. They were tested in Postman prior to integration with the front end. 
+
+### DialogFlow
+
+### Use Cases 
+
+Diana, a school-going girl, who has had a bad day at her school with bullying and doesn’t want to talk to her parents about this issue and her insecurities, can use this device as a help and guidance chatting box which will try to bring her at ease.
+
+David, a retired senior citizen and a grandparent of two children, who has been a victim of constant neglect from the busy kids and family members, has this device to talk to and share the emotional talks with it,  finding comfort which he searches among his family.
+
+Shirley, a psychiatrist, can implement the use of this device for the people who are resistant or hesitant to talk to fellow humans and constrained in speaking their heart out. (They can get the consensus out of this device about characteristics of the person and can analyse them for further discussions).
+
+Anna, a woman with insecurities, who constantly worries about the leakage and spread of her chats and discussions with anyone can use our product which also provides utmost security to all the data and chats with the implementation of Blockchain Technology to store the chats.
+
 
 
 
