@@ -36,8 +36,8 @@ class Layout extends Component {
               <div id = "div1" class="item active">
                 <img id = "image1" src={require('../assets/static_images/272_1.jpg')} alt="Los Angeles"  />
               </div>
-              <div class="item" id="div2">
-                <img id = "image2" src={require('../assets/static_images/272_2.png')} alt="Los Angeles"  />
+              <div class="item" id="div5">
+                <img id = "image5" src={require('../assets/static_images/272_5.jpg')} alt="Los Angeles"  />
               </div>
               <div id = "div3" class="item active">
                 <img id = "image3" src={require('../assets/static_images/272_3.jpg')} alt="Los Angeles"  />
@@ -45,9 +45,9 @@ class Layout extends Component {
               <div id = "div4" class="item active">
                 <img id = "image4" src={require('../assets/static_images/272_4.jpg')} alt="Los Angeles"  />
               </div>
-              <div id = "div5" class="item active">
+              {/* <div id = "div5" class="item active">
                 <img id = "image5" src={require('../assets/static_images/272_5.jpg')} alt="Los Angeles"  />
-              </div>
+              </div> */}
               {/* <div class="item">
                 <img src={reuire('../assets/static_images/img6.png')} alt="Chicago"  />
               </div>

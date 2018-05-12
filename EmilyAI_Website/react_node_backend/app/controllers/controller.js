@@ -1423,8 +1423,8 @@ exports.getAllSessionDetails = function (req, res) {
     
 
 exports.getClicksPerPage = function (req, res) {
-    var pageNumbers = {"Fandango Home": 0, "Account Settings": 1, "Log In": 3,
-                        "Sign Up": 4}
+    var pageNumbers = {"Fandango Home": 0, "Account Settings": 1, "Log In": 2,
+                        "Sign Up": 3}
     var pageClicks = [{pageName: "Fandango Home", count: 0}, {pageName: "Account Settings", count: 0},
                      {pageName: "Log In", count: 0}, {pageName: "Sign Up", count: 0}]
     var lineReader = require('readline').createInterface({
@@ -1439,6 +1439,7 @@ exports.getClicksPerPage = function (req, res) {
             }
         }
     }).on('close', function () {
+        console.log("I am in clicks" + pageClicks);
         pageClicks[0].pageName = "EmilyAI";
         pageClicks[1].pageName = "Profile Page";
         res.json(pageClicks)

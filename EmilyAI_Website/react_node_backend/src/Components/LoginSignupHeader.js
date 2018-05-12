@@ -50,7 +50,7 @@ class LoginSignupHeader extends Component {
                   </div>
                   <div class = "row">
                     <a class="" href="/"><img width="30" height="30" id = "abcd" src={require('../assets/static_images/logo.png')} alt="Los Angeles"  /></a>
-                    <p class="join-header">EMILY<span class="page-header-emphasis">AI</span></p>
+                    <p id="signup-login-logo" class="join-header">EMILY<span class="page-header-emphasis">AI</span></p>
                   </div>
                 </li>
               </ul>
