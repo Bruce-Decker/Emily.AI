@@ -87,6 +87,13 @@ Shirley, a psychiatrist, can implement the use of this device for the people who
 
 Anna, a woman with insecurities, who constantly worries about the leakage and spread of her chats and discussions with anyone can use our product which also provides utmost security to all the data and chats with the implementation of Blockchain Technology to store the chats.
 
+### Future Improvements
+1. Use deep learning to train chatbot
+2. Create a blockchain for chatbots
+3. Improve UI
+4. Implement BlockDB
+5. Implement machine learning and analytics in this website 
+
 
 
 
