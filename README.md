@@ -70,6 +70,13 @@ In Node.js, endpoints were written for HTTP requests. They were tested in Postma
 
 ### DialogFlow
 
+Google's DialogFlow offers voice and text based conversational AI. It can be connected to web sites, mobile apps, Google Assistant, Amazon Alexa, Facebook Messenger, etc.
+It was called API.AI before Google's acquisition. Chatbot can be trained in DialogFlow. Then it will be connected to a web app. Users are able to interact with the chatbot in our web application. 
+
+### DialogFlow Architecture Diagram 
+![alt text](Pictures/dialogflow_architecture.png "Description goes here")
+
+
 ### Use Cases 
 
 Diana, a school-going girl, who has had a bad day at her school with bullying and doesn’t want to talk to her parents about this issue and her insecurities, can use this device as a help and guidance chatting box which will try to bring her at ease.
