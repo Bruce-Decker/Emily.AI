@@ -58,7 +58,7 @@ Username, password and url were acquired from IBM Cloud account.
 
 ### Blockchain
 
-![alt text](Pictures/blockchain.jpeg "Description goes here")
+![alt text](Pictures/blockchain.jpg "Description goes here")
 
 A blockchain is a distributed database that continuously grows in order according to demand. The most famous blockchain based services are Bitcoin and Ethereum. Not only blockchain technology can be used in finance, it can used in storing medical records in a secure and private manner. A block is the most fundamental structure of a blockchain. It includes index, timestamp, data, hash and previous. A block class was written in Javascript in project which includes those parameters as mentioned above. 
 
