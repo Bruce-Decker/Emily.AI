@@ -95,11 +95,13 @@ Anna, a woman with insecurities, who constantly worries about the leakage and sp
 
 ### Future Improvements
 1. Use deep learning to train chatbot
+2. Use Tensorflow, PyTorch and Keras framework
 2. Create a blockchain for chatbots
 3. Improve UI
 4. Implement BlockDB
 5. Implement machine learning and analytics in this website 
 6. Implement on Google Assistant 
+
 
 ### Conclusion
 Overall, I will continue working on this project in the near future. There are many improvements to be made. Furthermore, I will experiment with deep learning in Python and a larger data sets for training the chatbot. I will also implement BlockDB, which is a database for blockchain. There are also many improvements to be made in UI. Machine learning algorithm will be used to do analysis on user traffic and personality insight. We learned a lot from this project and gained a lot of knowledge in this class. 
