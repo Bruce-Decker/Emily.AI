@@ -108,9 +108,9 @@ Overall, I will continue working on this project in the near future. There are m
 We’d like to thank Professor Ranjan for advising us and providing us with this amazing project opportunity. 
 
 ### Refereneces 
-[1]    K. Knowles, “IBM Watson’s personality reader is creepily accurate,” The Memo, 2015
-[2]    R. Miller, “Google Cloud releases DialogFlow Enterprise Edition for building chat apps,” Techcrunch, 2018
-[3]    J. Willoughby, “The Top 5 Benefits of React that Make Life Better,” Telerik, 2017 
+[1]    K. Knowles, “IBM Watson’s personality reader is creepily accurate,” The Memo, 2015 <br />
+[2]    R. Miller, “Google Cloud releases DialogFlow Enterprise Edition for building chat apps,” Techcrunch, 2018 <br />
+[3]    J. Willoughby, “The Top 5 Benefits of React that Make Life Better,” Telerik, 2017  <br />
 
 
 
